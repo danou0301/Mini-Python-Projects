@@ -1,0 +1,49 @@
+danou0301
+341339901
+Dan Boujenah
+
+I discussed the exercise with: nobody
+
+=============================
+=      README for ex4:      =
+=============================
+
+
+==================
+=  Description:  =
+==================
+Hangman game.
+The purpose of the game is to find a word among a dictionary, by choosing 
+letters that suppose compose the word.
+Add: the payer can ask to a hint
+
+All functions that i used:
+
+- update_word_pattern(word, pattern, user_letter): function that update the 
+pattern with the new letter.
+
+- run_single_game(words_list): the function choose one word among a list and
+run a single game of hangman
+
+- wrong_letter_check(word, wrong_guess_lst): check if there are a wrong letter
+in the word
+
+- filter_words_list(words_list, pattern, wrong_guess_lst): filters a list of
+words in accordance to the pattern.
+
+- letter_to_index(letter): Return‬‬ ‫‪the‬‬ ‫‪index‬‬ ‫‪of‬‬ ‫‪the‬‬ ‫‪given‬‬ ‫‪letter‬‬ ‫‪in‬‬ ‫‪an‬‬ ‫‪alphabet‬‬ ‫‪
+list.‬‬
+
+- index_to_letter(index) : Return‬‬ ‫‪the‬‬ ‫‪letter‬‬ ‫‪corresponding‬‬ ‫‪to‬‬ ‫‪the‬‬ ‫‪given‬‬ ‫‪index.‬‬
+
+- choose_letter(words_hint, pattern): define who is the letter (not already find)
+that is more present in a list of words
+
+- main(): This function allows to run the program.
+ 
+======================
+=  Special Comments  =
+======================
+I USE :
+https://docs.python.org/3/tutorial/controlflow.html
+

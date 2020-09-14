@@ -1,0 +1,54 @@
+chalomz,danou0301
+888311081,341339901
+Chalom Zemmour,Dan Boujenah
+
+
+I discussed the exercise with:
+
+==============================================================================
+=  README for ex12: Four in a Row  =
+==============================================================================
+
+
+==============================================================================
+=  Description:   =
+==============================================================================
+
+In this project, we developed a game named "Four in a Row"; on a screen board
+there are two players who are playing with coins and try to align 4 of their
+coins according to their mutual colors. The players can played from 2
+different windows separately or one player can play against the computer
+artificial intelligence that we have developed.
+
+
+We used several Classes:
+We import two Python library class.
+Tkinter Class:
+This class allows to us to display on the windows the game advance screen.
+Socket Class:
+It enables to communicate between several computer on same port and according
+to the ip.
+
+
+We developed Four files:
+- game.py : This file contain the Game Class, is used to define the internal
+logic of the game using several helpful functions.
+- four_in_a_row.py : This file contain the GUI Class, it has been developed to
+display on new window the schematic game advance.
+- communicator.py : This files contain the Communicator Class that allow us to
+send and receive message from other machine, that allow us to play with other
+person.
+- ai.py : This file contain the AI Class, we have developed a very basic AI.
+
+
+We also used several pictures of coins, board and others images displayed on
+the screen in order to show the game advance and for the comfortable user
+gaming.
+
+==============================================================================
+=  Special Comments  =
+==============================================================================
+
+Enjoy!
+
+

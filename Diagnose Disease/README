@@ -1,0 +1,36 @@
+danou0301
+341339901
+Dan Boujenah
+
+I discussed the exercise with: Binyamin Maman
+
+==============================================================================
+=                              README for ex10                               =
+==============================================================================
+
+Files : ex10.py
+
+==============================================================================
+=                               Description:                                 =
+==============================================================================
+This project is about Node and decision's tree:
+
+- In the First part we build functions that use a decision's tree and records
+to find for example the illness that a patient have according to symptoms or
+find all illnesses in the tree...
+All functions: diagnose, calculate_error_rate, all_illnesses,
+most_common_illness, paths_to_illness.
+- In the Second part we build a optimal decision tree according to a record
+file and symptoms to check.
+Functions: build_tree, optimal_tree
+
+There are  3 Classes:
+- Node: This class represent a node in the tree, every node have a positive
+and negative child corresponding of a Yes or No answer (if a person have or
+don't have a certain symptom) or None of them, it's a leaf (illness).
+- Record: This class represent a record, each record have illness and
+symptoms
+- Diagnoser: This class contain several functions that help to diagnose
+
+
+Enjoy !

@@ -1,0 +1,63 @@
+chalomz, danou0301
+888311081, 341339901
+Chalom Zemmour, Dan Boujenah
+
+
+I discussed the exercise with:
+
+==============================================================================
+=  README for ex9: Asteroids Game  =
+==============================================================================
+
+
+==============================================================================
+=  Description:   =
+==============================================================================
+The aim of this exercise is to build an interactive game. The goal of the game
+is to destroy asteroids with torpedos launched from a ship. The ship is
+controled by the user.
+This exercise is composed by 5 python file:
+
+-asteroid.py: In this file, we defined the Asteroid class that contains
+asteroids proprieties: position, velocity, size. There are also important
+related functions, those give and set the proprieties and also return value like
+radius or presence of intersection between an asteroid and an other object.
+
+-ship.py: In this file, we defined the Ship class that contains
+ship propriety: position, velocity, angle (heading) and number of lives
+ship. There are also important related functions, those give and set the
+proprieties and also return values like radius.
+
+-torpedo.py: In this file, we defined the Torpedo class that contains
+torpedos proprieties: position, velocity, angle (heading) and time of life.
+There are also important related functions, those give and set the
+proprieties and also return values like radius or presence of intersection
+between a torpedo and an other object.
+
+-asteroids_main.py: In this file, we defined the GameRunner, we defined here
+the game process. It uses the other classes and we use different functions to
+
+-screen.py: helper file from the open2cs staff that build several object in
+the game.
+
+===============================================================================
+Questions:
+
+1) We chose to put arguments on Asteroid, Torpedo and Ship Class and not initialize
+them in the init. Because we think that the class have to be neutral and
+initialize the parameters on the GameRunner.
+
+2) We chose to build functions manage_torpedo and manage_asteroids to do
+all actions that torpedo and asteroids have to do.
+And not several function for every actions. We find that more clear
+
+3) We don't know if we have to display win or loss message if the user hit the last
+asteroid and died. We think that is more logical to put loss message but we saw
+the game solution and in this case that display 'win' then we chose that option.
+
+
+==============================================================================
+=  Special Comments  =
+==============================================================================
+
+Enjoy!
